@@ -1,0 +1,6 @@
+f1=open("file1.txt","w")
+data=f1.write("dsdsddwewew")
+print(data)
+f1=open("file1.txt","r")
+data=f1.read()
+print(data)

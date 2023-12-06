@@ -1,0 +1,8 @@
+f1=open("file2.txt","w+")
+print(f1.tell())
+f1.write("hello welcome")
+print(f1.tell())
+data=f1.read()
+print(data)
+print(f1.tell())
+f1.close()
